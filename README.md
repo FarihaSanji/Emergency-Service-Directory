@@ -1,6 +1,5 @@
 # Emergency-Helpline-Directory
 Emergency Helpline Directory
-
 1. Difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll
 
 These methods are used to select elements from the DOM.
