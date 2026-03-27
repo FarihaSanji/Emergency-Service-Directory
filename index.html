@@ -14,7 +14,8 @@
   </head>
 
   <header>
-    <navbar class="navbar items-end justify-between px-6 py-2">
+    <!-- <navbar class="navbar items-end justify-between px-6 py-2"> -->
+      <navbar class="flex flex-col lg:flex-row items-center justify-between px-4 py-2 gap-3">
       <div class="flex justify-center items-center gap-2">
         <img src="./assets/logo.png" alt="" class="w-9" />
         <h2 class="text-green-900 font-bold text-xl">
@@ -23,7 +24,7 @@
         </h2>
       </div>
 
-      <div class="flex gap-6">
+    <div class="flex flex-wrap justify-center gap-3 sm:gap-6">
         <div
           class="flex items-center justify-around gap-4 bg-green-100 px-5 py-2 rounded-3xl"
         >
@@ -46,8 +47,7 @@
 
     <section class="banner">
       <div
-        class="bg-green-900 items-center text-center justify-around px-20 py-6"
-      >
+         class="bg-green-900 items-center text-center justify-around px-4 sm:px-10 lg:px-20 py-6">
         <div>
           <img src="./assets/logo.png" alt="" class="w-20 m-auto" />
         </div>
@@ -63,10 +63,10 @@
   </header>
 
   <body class="bg-green-50">
-    <div class="carts grid grid-cols-7 w-10/12 mx-auto py-2 my-3">
-      <section class="col-span-5">
+    <div class="carts grid grid-cols-1 lg:grid-cols-7 w-full max-w-6xl  px-4 mx-auto py-2 my-3 gap-4">
+      <section class="col-span-1 lg:col-span-5">
         <div class="cart-container">
-          <div class="grid grid-cols-3 gap-6 py-4 mr-5">
+         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-4 mr-0 lg:mr-5">
             <div class="cart-1 bg-white px-9 py-5 rounded-md shadow-md">
               <figure class="flex items-end justify-between">
                 <img
@@ -383,9 +383,9 @@
         </div>
       </section>
 
-      <div class=" mt-4 rounded bg-slate-50 text-base col-span-2 shadow-md">
+      <div class=" mt-4 rounded bg-slate-50 text-base col-span-1 lg:col-span-2 shadow-md ">
         <div
-          class="cardHistory mt-3 flex items-center gap-10 justify-between p-3"
+          class="cardHistory mt-3 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-10 p-3"
           id="history-container"
         >
           <div class="flex flex-2 items-center gap-1">
